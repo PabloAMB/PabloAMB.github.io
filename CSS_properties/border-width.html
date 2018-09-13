@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>border-width</title>
+	<style>
+		body {
+			background-color: rgb(136,205,245);
+			font-size: 20px;
+		}
+		.white {
+			background-color: white;
+			width: 50%;
+			padding-left: 2px;
+		}
+	</style>
+</head>
+<body>
+	<p><a href="https://pabloamb.github.io/">Back to main page.</a></p>
+	<p><a href="https://pabloamb.github.io/CSS_properties">Back to CSS properties.</a></p>
+	<hr>
+	<h1>Border-width CSS property</h1>
+	<p>This property can have from one to four values.</p>
+	<p class="white">border-width: <em>border-top-width border-right-width border-bottom-width border-left-width;</em></p>
+	<p>If the property has four values:</p>
+		<ul>
+			<li>The first value will affect border-top.</li>
+			<li>The second value will affect border-right.</li>
+			<li>The third value will affect border-bottom.</li>
+			<li>The fourth value will affect border-left.</li>
+		</ul>
+	<p>If the property has three values:</p>
+		<ul>
+			<li>The first value will affect border-top.</li>
+			<li>The second value will affect border-right and border-left.</li>
+			<li>The third value will affect border-bottom.</li>
+		</ul>
+	<p>If the property has two values:</p>
+		<ul>
+			<li>The fist value will affect border-top and border-bottom.</li>
+			<li>The second value will affect border-right and border-left.</li>
+		</ul>
+	<p>If the property has one value:</p>
+		<ul>
+			<li>The value will affect all four borders.</li>
+		</ul>
+	<h2>Values</h2>
+	<ul>
+		<li>medium (default)</li>
+		<li>thin</li>
+		<li>thick</li>
+		<li><em>length</em></li>
+	</ul>
+	<h3>Examples</h3>
+	<p class="white">border-width: medium thick 15px thin;<br>
+	border-width: 14px thin thick;<br>
+	border-width: 7px 16px;<br>
+	border-width: thick;</p>
+	<p>	This property can affect the four borders, but it can be used in a particular border chosen among:
+		<ul>
+			<li>border-top-width</li>
+			<li>border-right-width</li>
+			<li>border-bottom-width</li>
+			<li>border-left-width</li>
+	</p>
+</body>
+</html>
